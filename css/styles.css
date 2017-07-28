@@ -47,7 +47,8 @@ h1 {
 	color: white;
 }
 
-#colorDisplay {
+
+#colorDisplay, #disp {
 	text-transform: uppercase;
 	font-size: 150%;
 }
