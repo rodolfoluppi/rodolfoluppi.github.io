@@ -1,0 +1,92 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+
+}
+
+#container {
+	max-width: 600px;
+	/*centers the container*/
+	margin: 20px auto;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.7s;
+	-webkit-transition: background 0.7s;
+	-moz-transition: background 0.7s;
+}
+
+h1 {
+	color: white;
+	line-height: 1.1;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: 600;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+
+}
+
+.selected {
+	background-color: steelblue;
+	color: white;
+}
+
+#colorDisplay {
+	text-transform: uppercase;
+	font-size: 150%;
+}
+
+button {
+	font-weight: 600;
+	color: steelblue;
+	border: none; 
+	background: none;
+	height: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 300ms;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+#message {
+	display: inline-block;
+	width: 18%;
+	font-weight: 700;
+	font-size: 120%;
+}
+
+h2 {
+	color: white;
+	font-size: 90%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#correctDisplay, #guessesDisplay {
+	margin-right: 20px;
+}
+
